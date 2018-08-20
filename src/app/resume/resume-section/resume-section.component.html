@@ -1,0 +1,11 @@
+<div class="resume-section-header"><h4>{{ title }}</h4></div>
+<div class="section-items" *ngFor="let item of items">
+  <div class="item-dates">{{ item.dates }}</div>
+  <div class="item-main">
+    <div class="item-title">{{ item.title }}</div>
+    <div class="item-subtitle">{{ item.subtitle }}</div>
+    <ul class="item-list">
+      <li class="item-li" *ngFor="let li of item.list">{{ li }}</li>
+    </ul>
+  </div>
+</div>

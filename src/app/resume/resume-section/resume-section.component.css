@@ -1,0 +1,32 @@
+.resume-section-header {
+  display: flex;
+  border-top: 1px solid #0e0e0e;
+  border-bottom: 1px solid #0e0e0e;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 18px;
+  color: #1950b2;
+  padding: 0 10px;
+}
+
+.section-items {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.item-main {
+  padding-left: 15px;
+}
+
+.item-subtitle {
+  font-style: italic;
+}
+
+.item-dates {
+  font-style: italic;
+  color: #427BE3;
+  padding-left: 10px;
+}

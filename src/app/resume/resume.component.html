@@ -1,0 +1,10 @@
+<div class="top-text">
+  <div class="header">
+    <h2>Welcome!</h2>
+  </div>
+  Welcome to Brendan Coletta's personal website. I am a software engineer based in St. Louis, MO where I enjoy working on Front-End projects using HTML, CSS, and Javascript/Typescript. 
+  <br>My work experience and education is listed below and you can find links to my LinkedIn and Resume under my picture.
+</div>
+<div class="resume" *ngFor="let section of sections">
+  <app-resume-section [data]="section"></app-resume-section>
+</div>

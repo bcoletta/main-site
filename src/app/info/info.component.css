@@ -1,0 +1,43 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.media-icon {
+  width: 24px;
+  height: 24px;
+  padding: 0 10px;
+}
+
+.profile-pic {
+  border-radius: 15%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-pic {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: cornflowerblue;
+}
